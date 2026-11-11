@@ -1,0 +1,211 @@
+fecha,estacion,municipio,latitud,longitud,pm25
+2026-10-01,MED-BEME · Belén,Medellín,6.23,-75.59,9.8
+2026-10-01,MED-ALTA · El Poblado,Medellín,6.19,-75.56,16.9
+2026-10-01,MED-UNNV · Universidad,Medellín,6.27,-75.57,29.0
+2026-10-01,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,9.0
+2026-10-01,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,25.0
+2026-10-01,COP-CIED · Copacabana,Copacabana,6.35,-75.51,30.1
+2026-10-02,MED-BEME · Belén,Medellín,6.23,-75.59,12.6
+2026-10-02,MED-ALTA · El Poblado,Medellín,6.19,-75.56,17.5
+2026-10-02,MED-UNNV · Universidad,Medellín,6.27,-75.57,29.6
+2026-10-02,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,9.7
+2026-10-02,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,21.6
+2026-10-02,COP-CIED · Copacabana,Copacabana,6.35,-75.51,31.3
+2026-10-03,MED-BEME · Belén,Medellín,6.23,-75.59,11.9
+2026-10-03,MED-ALTA · El Poblado,Medellín,6.19,-75.56,16.4
+2026-10-03,MED-UNNV · Universidad,Medellín,6.27,-75.57,28.4
+2026-10-03,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,8.9
+2026-10-03,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,23.4
+2026-10-03,COP-CIED · Copacabana,Copacabana,6.35,-75.51,31.6
+2026-10-04,MED-BEME · Belén,Medellín,6.23,-75.59,10.0
+2026-10-04,MED-ALTA · El Poblado,Medellín,6.19,-75.56,14.9
+2026-10-04,MED-UNNV · Universidad,Medellín,6.27,-75.57,28.1
+2026-10-04,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,8.9
+2026-10-04,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,22.2
+2026-10-04,COP-CIED · Copacabana,Copacabana,6.35,-75.51,30.9
+2026-10-05,MED-BEME · Belén,Medellín,6.23,-75.59,11.0
+2026-10-05,MED-ALTA · El Poblado,Medellín,6.19,-75.56,15.6
+2026-10-05,MED-UNNV · Universidad,Medellín,6.27,-75.57,28.4
+2026-10-05,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,8.4
+2026-10-05,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,21.6
+2026-10-05,COP-CIED · Copacabana,Copacabana,6.35,-75.51,32.5
+2026-10-06,MED-BEME · Belén,Medellín,6.23,-75.59,9.2
+2026-10-06,MED-ALTA · El Poblado,Medellín,6.19,-75.56,15.6
+2026-10-06,MED-UNNV · Universidad,Medellín,6.27,-75.57,28.1
+2026-10-06,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,8.9
+2026-10-06,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,20.5
+2026-10-06,COP-CIED · Copacabana,Copacabana,6.35,-75.51,32.9
+2026-10-07,MED-BEME · Belén,Medellín,6.23,-75.59,8.0
+2026-10-07,MED-ALTA · El Poblado,Medellín,6.19,-75.56,14.1
+2026-10-07,MED-UNNV · Universidad,Medellín,6.27,-75.57,25.9
+2026-10-07,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,7.8
+2026-10-07,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,19.5
+2026-10-07,COP-CIED · Copacabana,Copacabana,6.35,-75.51,32.1
+2026-10-08,MED-BEME · Belén,Medellín,6.23,-75.59,7.4
+2026-10-08,MED-ALTA · El Poblado,Medellín,6.19,-75.56,13.8
+2026-10-08,MED-UNNV · Universidad,Medellín,6.27,-75.57,26.8
+2026-10-08,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,9.5
+2026-10-08,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,20.1
+2026-10-08,COP-CIED · Copacabana,Copacabana,6.35,-75.51,33.2
+2026-10-09,MED-BEME · Belén,Medellín,6.23,-75.59,7.2
+2026-10-09,MED-ALTA · El Poblado,Medellín,6.19,-75.56,13.2
+2026-10-09,MED-UNNV · Universidad,Medellín,6.27,-75.57,25.5
+2026-10-09,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,8.7
+2026-10-09,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,20.3
+2026-10-09,COP-CIED · Copacabana,Copacabana,6.35,-75.51,34.1
+2026-10-10,MED-BEME · Belén,Medellín,6.23,-75.59,6.0
+2026-10-10,MED-ALTA · El Poblado,Medellín,6.19,-75.56,13.7
+2026-10-10,MED-UNNV · Universidad,Medellín,6.27,-75.57,27.4
+2026-10-10,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,9.2
+2026-10-10,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,21.0
+2026-10-10,COP-CIED · Copacabana,Copacabana,6.35,-75.51,33.4
+2026-10-11,MED-BEME · Belén,Medellín,6.23,-75.59,5.7
+2026-10-11,MED-ALTA · El Poblado,Medellín,6.19,-75.56,11.6
+2026-10-11,MED-UNNV · Universidad,Medellín,6.27,-75.57,25.2
+2026-10-11,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,9.7
+2026-10-11,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,19.0
+2026-10-11,COP-CIED · Copacabana,Copacabana,6.35,-75.51,34.2
+2026-10-12,MED-BEME · Belén,Medellín,6.23,-75.59,4.7
+2026-10-12,MED-ALTA · El Poblado,Medellín,6.19,-75.56,13.4
+2026-10-12,MED-UNNV · Universidad,Medellín,6.27,-75.57,26.1
+2026-10-12,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,9.1
+2026-10-12,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,17.9
+2026-10-12,COP-CIED · Copacabana,Copacabana,6.35,-75.51,33.0
+2026-10-13,MED-BEME · Belén,Medellín,6.23,-75.59,5.0
+2026-10-13,MED-ALTA · El Poblado,Medellín,6.19,-75.56,12.2
+2026-10-13,MED-UNNV · Universidad,Medellín,6.27,-75.57,27.4
+2026-10-13,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,9.3
+2026-10-13,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,19.1
+2026-10-13,COP-CIED · Copacabana,Copacabana,6.35,-75.51,32.6
+2026-10-14,MED-BEME · Belén,Medellín,6.23,-75.59,5.3
+2026-10-14,MED-ALTA · El Poblado,Medellín,6.19,-75.56,13.9
+2026-10-14,MED-UNNV · Universidad,Medellín,6.27,-75.57,27.2
+2026-10-14,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,12.2
+2026-10-14,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,20.3
+2026-10-14,COP-CIED · Copacabana,Copacabana,6.35,-75.51,30.7
+2026-10-15,MED-BEME · Belén,Medellín,6.23,-75.59,6.0
+2026-10-15,MED-ALTA · El Poblado,Medellín,6.19,-75.56,13.0
+2026-10-15,MED-UNNV · Universidad,Medellín,6.27,-75.57,28.2
+2026-10-15,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,11.3
+2026-10-15,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,19.7
+2026-10-15,COP-CIED · Copacabana,Copacabana,6.35,-75.51,30.9
+2026-10-16,MED-BEME · Belén,Medellín,6.23,-75.59,5.3
+2026-10-16,MED-ALTA · El Poblado,Medellín,6.19,-75.56,14.1
+2026-10-16,MED-UNNV · Universidad,Medellín,6.27,-75.57,29.1
+2026-10-16,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,10.6
+2026-10-16,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,19.6
+2026-10-16,COP-CIED · Copacabana,Copacabana,6.35,-75.51,29.9
+2026-10-17,MED-BEME · Belén,Medellín,6.23,-75.59,5.9
+2026-10-17,MED-ALTA · El Poblado,Medellín,6.19,-75.56,15.3
+2026-10-17,MED-UNNV · Universidad,Medellín,6.27,-75.57,28.9
+2026-10-17,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,10.6
+2026-10-17,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,20.3
+2026-10-17,COP-CIED · Copacabana,Copacabana,6.35,-75.51,28.6
+2026-10-18,MED-BEME · Belén,Medellín,6.23,-75.59,6.4
+2026-10-18,MED-ALTA · El Poblado,Medellín,6.19,-75.56,14.4
+2026-10-18,MED-UNNV · Universidad,Medellín,6.27,-75.57,28.0
+2026-10-18,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,11.4
+2026-10-18,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,20.2
+2026-10-18,COP-CIED · Copacabana,Copacabana,6.35,-75.51,28.6
+2026-10-19,MED-BEME · Belén,Medellín,6.23,-75.59,6.4
+2026-10-19,MED-ALTA · El Poblado,Medellín,6.19,-75.56,15.5
+2026-10-19,MED-UNNV · Universidad,Medellín,6.27,-75.57,28.9
+2026-10-19,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,11.0
+2026-10-19,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,20.4
+2026-10-19,COP-CIED · Copacabana,Copacabana,6.35,-75.51,28.4
+2026-10-20,MED-BEME · Belén,Medellín,6.23,-75.59,6.8
+2026-10-20,MED-ALTA · El Poblado,Medellín,6.19,-75.56,14.3
+2026-10-20,MED-UNNV · Universidad,Medellín,6.27,-75.57,28.9
+2026-10-20,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,12.2
+2026-10-20,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,20.6
+2026-10-20,COP-CIED · Copacabana,Copacabana,6.35,-75.51,29.0
+2026-10-21,MED-BEME · Belén,Medellín,6.23,-75.59,7.0
+2026-10-21,MED-ALTA · El Poblado,Medellín,6.19,-75.56,17.2
+2026-10-21,MED-UNNV · Universidad,Medellín,6.27,-75.57,30.3
+2026-10-21,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,11.7
+2026-10-21,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,20.6
+2026-10-21,COP-CIED · Copacabana,Copacabana,6.35,-75.51,27.5
+2026-10-22,MED-BEME · Belén,Medellín,6.23,-75.59,9.3
+2026-10-22,MED-ALTA · El Poblado,Medellín,6.19,-75.56,15.8
+2026-10-22,MED-UNNV · Universidad,Medellín,6.27,-75.57,29.7
+2026-10-22,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,10.0
+2026-10-22,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,21.8
+2026-10-22,COP-CIED · Copacabana,Copacabana,6.35,-75.51,28.2
+2026-10-23,MED-BEME · Belén,Medellín,6.23,-75.59,9.8
+2026-10-23,MED-ALTA · El Poblado,Medellín,6.19,-75.56,16.0
+2026-10-23,MED-UNNV · Universidad,Medellín,6.27,-75.57,30.4
+2026-10-23,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,9.4
+2026-10-23,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,23.0
+2026-10-23,COP-CIED · Copacabana,Copacabana,6.35,-75.51,29.0
+2026-10-24,MED-BEME · Belén,Medellín,6.23,-75.59,9.4
+2026-10-24,MED-ALTA · El Poblado,Medellín,6.19,-75.56,17.1
+2026-10-24,MED-UNNV · Universidad,Medellín,6.27,-75.57,26.5
+2026-10-24,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,8.7
+2026-10-24,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,21.9
+2026-10-24,COP-CIED · Copacabana,Copacabana,6.35,-75.51,29.7
+2026-10-25,MED-BEME · Belén,Medellín,6.23,-75.59,10.0
+2026-10-25,MED-ALTA · El Poblado,Medellín,6.19,-75.56,15.0
+2026-10-25,MED-UNNV · Universidad,Medellín,6.27,-75.57,29.5
+2026-10-25,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,9.6
+2026-10-25,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,22.7
+2026-10-25,COP-CIED · Copacabana,Copacabana,6.35,-75.51,28.6
+2026-10-26,MED-BEME · Belén,Medellín,6.23,-75.59,9.1
+2026-10-26,MED-ALTA · El Poblado,Medellín,6.19,-75.56,15.3
+2026-10-26,MED-UNNV · Universidad,Medellín,6.27,-75.57,27.0
+2026-10-26,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,7.9
+2026-10-26,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,23.4
+2026-10-26,COP-CIED · Copacabana,Copacabana,6.35,-75.51,30.9
+2026-10-27,MED-BEME · Belén,Medellín,6.23,-75.59,10.9
+2026-10-27,MED-ALTA · El Poblado,Medellín,6.19,-75.56,14.4
+2026-10-27,MED-UNNV · Universidad,Medellín,6.27,-75.57,28.8
+2026-10-27,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,8.6
+2026-10-27,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,21.7
+2026-10-27,COP-CIED · Copacabana,Copacabana,6.35,-75.51,29.4
+2026-10-28,MED-BEME · Belén,Medellín,6.23,-75.59,9.9
+2026-10-28,MED-ALTA · El Poblado,Medellín,6.19,-75.56,15.9
+2026-10-28,MED-UNNV · Universidad,Medellín,6.27,-75.57,26.7
+2026-10-28,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,8.5
+2026-10-28,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,22.3
+2026-10-28,COP-CIED · Copacabana,Copacabana,6.35,-75.51,30.9
+2026-10-29,MED-BEME · Belén,Medellín,6.23,-75.59,10.6
+2026-10-29,MED-ALTA · El Poblado,Medellín,6.19,-75.56,14.6
+2026-10-29,MED-UNNV · Universidad,Medellín,6.27,-75.57,25.6
+2026-10-29,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,9.0
+2026-10-29,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,20.6
+2026-10-29,COP-CIED · Copacabana,Copacabana,6.35,-75.51,30.6
+2026-10-30,MED-BEME · Belén,Medellín,6.23,-75.59,8.5
+2026-10-30,MED-ALTA · El Poblado,Medellín,6.19,-75.56,14.7
+2026-10-30,MED-UNNV · Universidad,Medellín,6.27,-75.57,27.3
+2026-10-30,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,7.3
+2026-10-30,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,21.2
+2026-10-30,COP-CIED · Copacabana,Copacabana,6.35,-75.51,31.4
+2026-10-31,MED-BEME · Belén,Medellín,6.23,-75.59,7.1
+2026-10-31,MED-ALTA · El Poblado,Medellín,6.19,-75.56,15.3
+2026-10-31,MED-UNNV · Universidad,Medellín,6.27,-75.57,27.1
+2026-10-31,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,8.8
+2026-10-31,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,21.2
+2026-10-31,COP-CIED · Copacabana,Copacabana,6.35,-75.51,32.1
+2026-11-01,MED-BEME · Belén,Medellín,6.23,-75.59,7.5
+2026-11-01,MED-ALTA · El Poblado,Medellín,6.19,-75.56,15.0
+2026-11-01,MED-UNNV · Universidad,Medellín,6.27,-75.57,25.6
+2026-11-01,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,8.9
+2026-11-01,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,19.1
+2026-11-01,COP-CIED · Copacabana,Copacabana,6.35,-75.51,34.5
+2026-11-02,MED-BEME · Belén,Medellín,6.23,-75.59,7.4
+2026-11-02,MED-ALTA · El Poblado,Medellín,6.19,-75.56,13.0
+2026-11-02,MED-UNNV · Universidad,Medellín,6.27,-75.57,26.2
+2026-11-02,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,8.0
+2026-11-02,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,20.2
+2026-11-02,COP-CIED · Copacabana,Copacabana,6.35,-75.51,32.5
+2026-11-03,MED-BEME · Belén,Medellín,6.23,-75.59,7.7
+2026-11-03,MED-ALTA · El Poblado,Medellín,6.19,-75.56,12.5
+2026-11-03,MED-UNNV · Universidad,Medellín,6.27,-75.57,26.8
+2026-11-03,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,9.1
+2026-11-03,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,19.6
+2026-11-03,COP-CIED · Copacabana,Copacabana,6.35,-75.51,34.4
+2026-11-04,MED-BEME · Belén,Medellín,6.23,-75.59,5.8
+2026-11-04,MED-ALTA · El Poblado,Medellín,6.19,-75.56,14.1
+2026-11-04,MED-UNNV · Universidad,Medellín,6.27,-75.57,27.4
+2026-11-04,ITA-CONC · Itagüí,Itagüí,6.17,-75.61,11.1
+2026-11-04,SAB-CJUS · Sabaneta,Sabaneta,6.15,-75.62,19.1
+2026-11-04,COP-CIED · Copacabana,Copacabana,6.35,-75.51,33.6

@@ -1,0 +1,98 @@
+AIRECLARO - REGISTRO DE PRUEBAS
+================================
+Proyecto: AireClaro EAFIT MVP
+Fecha de ejecucion: 11 de noviembre de 2026
+URL local observada: http://127.0.0.1:8502/
+Modo de las capturas: SIATA - mediciones recientes
+Estacion de las capturas: SIATA 100 - Medellin
+Datos que se ven en las capturas: PM2.5 21 ug/m3; categoria Moderada; actualizacion 11 nov 2026 11:51 GMT-5; promedio movil de 24 horas.
+
+IMPORTANTE
+Las respuestas del asistente y sus etiquetas de herramienta se registran tal como se observaron. Una respuesta con el dato correcto no se considera prueba completa del agente si no aparece la herramienta esperada. El usuario debe revisar este registro, completar las pruebas pendientes y agregar sus capturas propias si repite los casos.
+
+PRUEBAS AUTOMATIZADAS
+---------------------
+Comando: python -m py_compile app.py
+Resultado: OK (sin errores de sintaxis).
+
+Comando: python -m unittest discover -s tests -v
+Resultado: OK - 3 pruebas pasaron: arranque del panel en modo demo, prediccion y linea base en modo demo, recuperacion RAG local. Estas pruebas no validan la disponibilidad de SIATA ni el funcionamiento de Groq.
+
+PRUEBAS MANUALES - MATRIZ DE EVALUACION DEL PROYECTO
+-----------------------------------------------------
+1. Pregunta: ¿Cual es la ultima lectura de la estacion seleccionada?
+   Resultado: PASA. El chat devolvio SIATA 100 - Medellin, 21 ug/m3, categoria Moderada, actualizacion 11:51 GMT-5 y periodo promedio movil 24 h. Etiqueta visible: get_pm25.
+   Evidencia: 01_lectura_siata.png
+
+2. Pregunta: ¿Que PM2.5 tiene la estacion seleccionada?
+   Resultado: RESPUESTA CORRECTA, HERRAMIENTA NO CONFIRMADA EN LA CAPTURA. En la ejecucion manual devolvio 21 ug/m3 para SIATA 100 - Medellin; en la salida no quedo visible una etiqueta get_pm25 para este caso.
+   Evidencia: no se adjunto captura independiente.
+
+3. Pregunta: Consulta la concentracion de la estacion seleccionada.
+   Resultado: RESPUESTA CORRECTA, HERRAMIENTA NO CONFIRMADA EN LA CAPTURA. Devolvio 21 ug/m3, categoria Moderada y promedio 24 h; la etiqueta de herramienta no quedo visible.
+   Evidencia: no se adjunto captura independiente.
+
+4. Pregunta: ¿Cual es la categoria publicada por SIATA?
+   Resultado: CAPTURA INICIAL CON OBSERVACION; REPRUEBA POSTERIOR PASO. La imagen enviada corresponde a una ejecucion anterior al ajuste del agente y muestra "respuesta introductoria". Despues del ajuste se repitio la pregunta en la app y el resultado mostró get_pm25 junto con la categoria Moderada; esa repeticion no tiene captura adjunta.
+   Evidencia: 02_categoria_sin_herramienta.png
+
+5. Pregunta: ¿De que hora es esta medicion?
+   Resultado: RESPUESTA CORRECTA; EVIDENCIA PARCIAL. El chat dio 11 nov 2026, 11:51 GMT-5 e indico fuente SIATA y promedio de 24 h. Una captura posterior muestra get_pm25, pero no incluye la pregunta correspondiente; conservar como evidencia complementaria, no como aprobacion concluyente.
+   Evidencia: 03_hora_y_estacion.png y 05_hora_con_get_pm25.png
+
+6. Pregunta: ¿Que estacion esta seleccionada?
+   Resultado: RESPUESTA CORRECTA, HERRAMIENTA NO CONFIRMADA. Respondio SIATA 100 - Medellin y la hora de actualizacion; no quedo visible get_pm25 bajo esta respuesta.
+   Evidencia: 03_hora_y_estacion.png
+
+7. Pregunta: ¿De donde sale el valor que muestra el panel?
+   Resultado: PASA. Identifico la capa publica SIATA, ICA PM2.5, promedio movil 24 h y devolvio estacion, valor, categoria y hora. Etiqueta visible: get_pm25.
+   Evidencia: 04_fuente_panel_siata.png
+
+8. Pregunta: ¿Que categoria habra mañana segun los datos de SIATA?
+   Resultado: PENDIENTE. Debe indicar que la capa reciente no da historial suficiente para un pronostico fiable y usar predict_tomorrow.
+   Evidencia: pendiente.
+
+9. Pregunta: Predice mañana y explica que tan bien funciona.
+   Resultado: PENDIENTE. No presentar como pronostico real las metricas del CSV simulado; con fuente SIATA debe explicar la limitacion y usar predict_tomorrow.
+   Evidencia: pendiente.
+
+10. Pregunta: En modo Demo, compara la prediccion con la linea base.
+    Resultado: PENDIENTE. Seleccionar Demo y verificar que aparezcan ambos resultados, identificados como simulados.
+    Evidencia: pendiente.
+
+11. Pregunta: ¿Que informacion ofrece el conjunto de datos del IDEAM?
+    Resultado: PENDIENTE. Debe recuperar el documento local pertinente y su URL mediante search_docs.
+    Evidencia: pendiente.
+
+12. Pregunta: Busca el contexto del informe de SIATA.
+    Resultado: PENDIENTE. Verificar el documento SIATA recuperado mediante search_docs.
+    Evidencia: pendiente.
+
+13. Pregunta: ¿Que fuentes de informacion tiene este proyecto?
+    Resultado: PENDIENTE. Verificar fuentes del corpus con search_docs; no atribuir mediciones a Groq.
+    Evidencia: pendiente.
+
+14. Pregunta: ¿Que informacion contiene el documento de SIATA?
+    Resultado: PENDIENTE. Verificar respuesta y fuente mediante search_docs.
+    Evidencia: pendiente.
+
+15. Pregunta: ¿Es una lectura instantanea en tiempo real?
+    Resultado: PENDIENTE. Debe aclarar que es promedio movil de 24 h y mostrar hora de actualizacion; comprobar get_pm25.
+    Evidencia: pendiente.
+
+ARCHIVOS DE EVIDENCIA RECIBIDOS
+-------------------------------
+01_lectura_siata.png                 Lectura real SIATA y get_pm25.
+02_categoria_sin_herramienta.png     Captura inicial anterior al ajuste; la re-ejecucion posterior con get_pm25 no tiene captura.
+03_hora_y_estacion.png               Respuestas correctas; no se ve herramienta en esas respuestas.
+04_fuente_panel_siata.png            Fuente SIATA y get_pm25.
+05_hora_con_get_pm25.png             Timestamp/fuente y get_pm25; la pregunta no aparece en la imagen.
+
+LIMITES DE INTERPRETACION
+-------------------------
+- Las concentraciones son promedios moviles de las ultimas 24 horas, no instantaneas.
+- La fuente SIATA es un servicio publico y puede cambiar o no estar disponible. La app usa una cache de cinco minutos.
+- Las pruebas automatizadas son locales y deterministas; no prueban red, SIATA ni Groq.
+- Para cerrar la evidencia manual, repetir los casos con observacion y pendientes, comprobar el nombre de herramienta y tomar capturas con Win + Shift + S. No capturar claves API ni archivos .env.
+- Fecha y hora de los datos pueden variar al volver a ejecutar la app.
+
